@@ -11,11 +11,11 @@ const FAQItem = () => {
   };
 
   return (
-    <section className=" px-20 py-20 flex flex-col gap-16">
-      <h1 className="text-center font-bold text-[80px] leading-[100%] font-Domine max-[1350px]:text-[78px]">
+    <section className=" px-20 py-20 flex flex-col gap-16 max-[650px]:px-10 max-[650px]:gap-8 max-[650px]:py-16">
+      <h1 className="text-center font-bold text-[80px] leading-[100%] font-Domine max-[1350px]:text-[78px] max-[650px]:text-[45px]">
         Still have <span className=" text-[#F1684C]"> questions? </span>
       </h1>
-      <div className="w-[900px] m-auto ">
+      <div className="w-[900px] m-auto max-[1250px]:w-full ">
         {faqs.map((data, index) => {
           return (
             <div

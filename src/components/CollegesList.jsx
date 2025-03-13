@@ -8,17 +8,22 @@ import Frame5 from "../assets/Frame5.svg";
 import { FaTag } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
-import { cardList1, cardList2, cardPoin1 } from "../data/data";
+import { cardList1, cardPoin1 } from "../data/data";
 import { MdCheckCircleOutline } from "react-icons/md";
 
 function CollegesList() {
   return (
     <section className=" py-[64px] flex flex-col gap-14 overflow-hidden">
-      <h1 className=" text-[85px] font-Domine font-bold tracking-[0%] leading-[115.99999999999999%] text-center max-[1350px]:text-[78px]">
+      <h1 className=" text-[85px] font-Domine font-bold tracking-[0%] leading-[115.99999999999999%] text-center max-[1350px]:text-[78px] max-[650px]:text-[45px]">
         List of colleges
       </h1>
       <div className=" bg-[#F1684C] -rotate-[1.87deg]">
-        <div className=" flex items-center  justify-between px-20 py-2 min-[1600px]:w-[1400px]  min-[1600px]:mx-[50%] min-[1600px]:translate-x-[-50%]">
+        <div
+          className=" flex items-center  justify-between px-20 py-2 max-[650px]:px-10
+          max-[650px]:grid-cols-2 max-[650px]:gap-x-10 max-[650px]:gap-y-2
+        max-[1250px]:grid max-[1250px]:grid-cols-3 max-[1250px]:gap-y-6 max-[1250px]:py-6
+         min-[1600px]:w-[1400px]  min-[1600px]:mx-[50%] min-[1600px]:translate-x-[-50%]"
+        >
           <img
             src={Frame5}
             alt="Frame5"
@@ -52,10 +57,15 @@ function CollegesList() {
         </div>
       </div>
 
-      <section className=" px-32 py-14 flex justify-between min-[1600px]:w-[1400px]  min-[1600px]:mx-[50%] min-[1600px]:translate-x-[-50%]">
+      <section
+        className=" px-32 py-14 flex justify-between
+        max-[850px]:grid-cols-1 max-[650px]:px-6 max-[650px]:py-3
+      max-[1250px]:grid max-[1250px]:grid-cols-2 max-[1250px]:px-16 max-[1250px]:gap-8
+      min-[1600px]:w-[1400px]  min-[1600px]:mx-[50%] min-[1600px]:translate-x-[-50%]"
+      >
         {/* Card One */}
 
-        <section className=" border-2 border-[#C9C6BD] w-[440px] rounded-3xl bg-[#FFFFFF] p-8 flex flex-col gap-2.5">
+        <section className=" border-2 border-[#C9C6BD] w-[440px] max-[1250px]:w-full  max-[850px]:m-auto rounded-3xl bg-[#FFFFFF] p-8 flex flex-col gap-2.5">
           <h2 className=" text-[#F1684C] text-[38px] font-bold leading-[100%] font-Manrope tracking-[-5%]">
             Aspirant’s Plan
           </h2>
@@ -134,7 +144,7 @@ function CollegesList() {
           </button>
         </section>
 
-        <section className=" border-2 border-[#C9C6BD] w-[440px] rounded-3xl bg-[#FFFFFF] p-8 flex flex-col gap-2.5">
+        <section className=" border-2 border-[#C9C6BD] w-[440px] max-[1250px]:w-full  max-[850px]:m-auto rounded-3xl bg-[#FFFFFF] p-8 flex flex-col gap-2.5">
           <h2 className=" text-[#F1684C] text-[38px] font-bold leading-[100%] font-Manrope tracking-[-5%]">
             Topper’s Plan
           </h2>

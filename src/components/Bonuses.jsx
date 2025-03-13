@@ -5,14 +5,17 @@ import img3 from "../assets/03.png";
 import img4 from "../assets/04.png";
 const Bonuses = () => {
   return (
-    <section className=" bg-[#F1684C] px-20 py-16 ">
-      <section className="flex flex-col gap-32 min-[1600px]:w-[1400px]  min-[1600px]:mx-[50%] min-[1600px]:translate-x-[-50%]">
-        <h1 className=" text-[85px] leading-[115.99999999999999%] text-center font-Domine font-bold text-white max-[1350px]:text-[78px]">
+    <section className=" bg-[#F1684C] px-20 py-16 max-[1250px]:px-10 max-[650px]:px-6 ">
+      <section className="flex flex-col gap-32 min-[1600px]:w-[1400px]  min-[1600px]:mx-[50%] min-[1600px]:translate-x-[-50%] max-[650px]:gap-16">
+        <h1
+          className=" text-[85px] leading-[115.99999999999999%] text-center font-Domine font-bold text-white max-[1350px]:text-[78px]
+         max-[650px]:text-[45px]"
+        >
           Enjoy these bonuses crafted with ❤️ only for you
         </h1>
 
         <section className=" relative z-20">
-          <section className=" grid grid-cols-2 justify-center w-max m-auto gap-[95px]">
+          <section className=" grid grid-cols-2 justify-center w-max m-auto gap-[95px] max-[1250px]:gap-[40px] max-[650px]:grid-cols-1">
             <div className=" border-[#FFFFFF] border w-[320px] flex flex-col gap-2.5 bg-[#F1684C] relative border-dotted text-white px-6 pt-9 rounded-[27.5px] z-20 pb-8">
               <span
                 className=" absolute top-[-30px] left-[50%] translate-x-[-50%] bg-[#F1684C] px-4 text-[48px]
