@@ -25,7 +25,7 @@ function Footer() {
               <img
                 src={Highlight2}
                 alt="Highlight2"
-                className=" absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] -z-10"
+                className=" absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] -z-10 max-[650px]:w-[160px]"
               />
             </span>
             community.
